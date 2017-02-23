@@ -1,0 +1,104 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: URL("pics/sports-background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+/* ================ Header =============== */
+
+.header {
+    color: #fff;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.header .container {
+    border-bottom: 4px solid #FFEDCA;
+}
+
+.header img {
+    width: 100px;
+    height: auto;
+}
+
+.header h1 {
+    font-family: 'Caveat Brush', cursive;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+/* ============== Main ================ */
+
+.main .container {
+    border-bottom: 4px solid #FFEDCA;
+}
+
+form {
+    max-width: 750px;
+    font-family: 'Sansita', sans-serif;
+    color: #fff;
+    margin: 30px 0 50px 0;
+}
+
+label {
+    font-size: 18px;
+    text-shadow: 1px 1px #000;
+}
+
+input,
+textarea,
+button {
+    outline:none;
+}
+
+input {
+    width: 55%;
+    height: 40px;
+    border-radius: 1%;
+    border: none;
+    font-size: 18px;
+}
+
+.btn {
+    font-family: 'Sansita', sans-serif;
+    letter-spacing: 1px;
+    font-size: 18px;    
+    width: 100px;
+    height: 40px;
+    border-radius: 3%;
+    border: none;
+    background-color: #D00000;
+    color: #fff;
+    font-weight: bold;   
+}
+
+.email-error {
+    font-size: 14px;
+    font-style: italic;
+    color: #FFFF00;
+}
+
+/* ============== Footer ============= */
+
+.bottom-menu {
+    margin: 15px 0 20px 0;
+    color: #fff;
+    font-family: 'Caveat Brush', cursive;
+    font-size: 18px;
+}
+
+.bottom-menu li{
+    padding: 10px 0;
+    display: inline-block;
+    margin-right: 20px;
+}

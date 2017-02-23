@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Validation form</title>
+    <link href="https://fonts.googleapis.com/css?family=Caveat+Brush" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sansita|Titillium+Web" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.15.0/jquery.validate.min.js"></script>
+    <script src="script.js"></script>
+
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <img src="pics/gym-logo.png"/>
+                    <h1>Choose your destiny</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <form id="register-form">
+                        <label>First name</label>
+                        <p class="first-error"></p>
+                        <input name="firstName" id="first-name" type="text" placeholder="   Enter your first name"/>
+                        <p></p>
+                        <label>Last name</label>
+                        <p class="last-error"></p>
+                        <input name="lastName" id="last-name>" type="text" placeholder="   Enter your last name"/>
+                        <p></p>
+                        <label>E-mail</label>
+                        <p class="email-error"></p>
+                        <input name="email" type="email" id="email"  placeholder="   Enter your e-mail"/>
+                        <p></p>
+                        <label>Password</label>
+                        <p class="password-error"></p>
+                        <input name="password" id="password" type="password" placeholder="   Enter your password" />
+                        <p></p>
+                        <input type="submit" class="btn" id="btn-default"  value="Sign up"/>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+               <div class="col-md-6">
+                    <ul class="bottom-menu">
+                        <li>Feedback</li>
+                        <li>Help</li>
+                        <li>About</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
